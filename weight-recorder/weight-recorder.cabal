@@ -40,5 +40,8 @@ library
                , time
                , transformers
                , wai
+  hs-source-dirs: src/
+  exposed-modules: Entity.User
+                 , Entity.WeightRecord
   ghc-options: -Wall
   default-language: Haskell2010
